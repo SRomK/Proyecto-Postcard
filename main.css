@@ -1,0 +1,174 @@
+body{
+    background-color: black;
+}
+
+img{
+    width: 90px;
+    height: 80px;
+    margin-top:5px;
+    margin-right: 60px;
+    padding-top: 10px;
+
+}
+
+h1{
+    margin-left: 10px;
+    width: 410px;
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+
+    border-bottom-color: grey;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+
+}
+
+.container{
+    margin:auto;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+
+.subContainer{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+button{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+button:hover{
+    animation: send 300ms infinite;
+}
+
+#text{
+    margin-left: 10px;
+    width: 50%;
+    padding-left: 30px;
+}
+#form{
+    margin-left: 10px;
+    margin-top: 80px;
+    width: 50%;
+    text-align: center;
+}
+
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+@keyframes send {
+    from{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    }
+    to{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    }
+}
+
+
+
+
+/*body{
+    background-color: black;
+}
+
+img{
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin-left: 10px;
+    width: 490px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    border-bottom-color: grey;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+.container{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+}
+
+.subContainer{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.button{
+    width: 100%;
+    height: 20%;
+}
+
+#title{
+    margin-left: 10px;
+}
+
+#logo{
+    margin-right: 10px;
+}
+
+#text{
+    margin-left: 10px;
+}
+
+#form{
+    margin-top: 80px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}*/
